@@ -1,0 +1,56 @@
+Question1)
+The U.S. Department of Transportation reported that during November, 83.4% of Southwest Airlines’ flights, 75.1% of US Airways’
+flights, and 70.1% of JetBlue’s flights arrived on time (USA Today, January 4, 2007). Assume that this on-time performance is
+applicable for flights arriving at concourse A of the Rochester International Airport, and that 40% of the arrivals at concourse
+A are Southwest Airlines flights, 35% are US Airways flights, and 25% are JetBlue flights.
+1)  Develop a joint probability table with three rows (airlines) and two columns (on-time arrivals vs. late arrivals).
+2)  An announcement has just been made that Flight 1424 will be arriving at gate 20 in concourse A. What is the most likely airline for this arrival?
+3)  What is the probability that Flight 1424 will arrive on time?
+4)  Suppose that an announcement is made saying that Flight 1424 will be arriving late. What is the most likely airline for this arrival? What is the least likely airline?
+
+Solution:
+    On-Time   Late
+SW  33.4      6.64
+US  26.3      8.72  
+JB  17.5      7.48
+
+2)SW
+3)77.2%
+4)US, SW
+
+Question2)
+Small cars get better gas mileage, but they are not as safe as bigger cars. Small cars accounted for 18% of the vehicles on the 
+road, but accidents involving small cars led to 11,898 fatali- ties during a recent year (Reader’s Digest, May 2000). Assume the 
+probability a small car is involved in an accident is .18. The probability of an accident involving a small car leading to a fatality 
+is .128 and the probability of an accident not involving a small car leading to a fa- tality is .05. Suppose you learn of an accident 
+involving a fatality. What is the probability a small car was involved? Assume that the likelihood of getting into an accident is 
+independent of car size.
+
+P(S) =18%
+P(SA)=18%
+Accident involve =11898
+P(F/SA)=.128
+P(F/Not SA)=0.05
+
+P(SA/F) =   P(F/SA)*P(SA) / P(F/SA)*P(SA)+P(notSA)*P(F/notSA)
+        =   0.128*.18 / (.128*.18)+(.005*.82)
+        =   0.2304/.06404
+        =   35.98%
+        
+Question 3)
+A local bank reviewed its credit card policy with the intention of recalling some of its credit cards.
+In the past approximately 5% of cardholders defaulted, leaving the bank unable to collect the outstanding balance. 
+Hence, management established a prior probability of .05 that any particular cardholder will default. 
+The bank also found that the probability of miss- ing a monthly payment is .20 for customers who do not default. Of course,
+the probability of missing a monthly payment for those who default is 1.
+a)Given that a customer missed one or more monthly payments, compute the posterior probability that the customer will default.
+The bank would like to recall its card if the probability that a customer will default is greater than .20. Should the bank recall its card if the customer misses a monthly pay- ment? Why or why not?
+
+P(D) = 0.05
+P(MP/ND) = 0.20
+P(MP/D)=1
+P(D/MP) =?
+          P(D)*P(MP/D) /  P(D)*P(MP/D)+ P(notD)*P(MP/notD)
+          =.05*1/0.05*1 + .95*.20
+          =.0.05/0.24
+          =20.8
